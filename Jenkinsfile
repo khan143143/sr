@@ -13,7 +13,8 @@ pipeline {
       steps{
         echo"building the app"
       }
-    }stage ("deploy")
+    }
+    stage ("deploy")
     {
       steps{
         echo"building the app"
